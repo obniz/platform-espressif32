@@ -20,10 +20,10 @@
       {
          "framework-obniz-plugin-esp32":[
             {
-               "url":"http://wamisnet.github.io/obnizPlatformIO-v0.0.2.zip",
-               "sha1":"faf387ac85de9e478c06ba35ae1309ffbdf6b0e5",
-               "system":"*",
-               "version":"0.0.2"
+               "url": "http://wamisnet.github.io/obnizPlatformIO-v0.0.2.zip",
+               "sha1": "36360421a0833963bc2d8b1b4b27ae54394a7b9c",
+               "system": "*",
+               "version": "0.0.2",
             }
          ]
       }
