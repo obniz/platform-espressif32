@@ -61,7 +61,7 @@ FRAMEWORK_DIR = platform.get_package_dir("framework-espidf")
 assert FRAMEWORK_DIR and isdir(FRAMEWORK_DIR)
 
 if "arduino" in env.subst("$PIOFRAMEWORK"):
-    ARDUINO_FRAMEWORK_DIR = platform.get_package_dir("framework-arduinoespressif32")
+    ARDUINO_FRAMEWORK_DIR = platform.get_package_dir("framework-obniz-plugin-esp32")
     # Possible package names in 'package@version' format is not compatible with CMake
     if "@" in basename(ARDUINO_FRAMEWORK_DIR):
         new_path = join(
