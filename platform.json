@@ -20,6 +20,12 @@
       {
          "framework-obniz-plugin-esp32":[
             {
+               "url": "http://wamisnet.github.io/obnizPlatformIO-v0.0.3.zip",
+               "sha1": "9338c771b1bd6a3e9f3d2c4471722db25782daef",
+               "system": "*",
+               "version": "0.0.3",
+            },
+            {
                "url": "http://wamisnet.github.io/obnizPlatformIO-v0.0.2.zip",
                "sha1": "36360421a0833963bc2d8b1b4b27ae54394a7b9c",
                "system": "*",
@@ -73,7 +79,7 @@
       "framework-obniz-plugin-esp32":{
          "type":"framework",
          "optional":true,
-         "version":"0.0.2"
+         "version":">=0.0.3"
       },
       "framework-arduino-mbcwb":{
          "type":"framework",
