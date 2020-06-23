@@ -50,7 +50,7 @@ class Espressif32Platform(PlatformBase):
         build_core = variables.get(
             "board_build.core", board_config.get("build.core", "arduino")).lower()
         if build_core == "mbcwb":
-            self.packages['framework-arduinoespressif32']['optional'] = True
+            self.packages['framework-obniz-plugin-esp32']['optional'] = True
             self.packages['framework-arduino-mbcwb']['optional'] = False
             self.packages['tool-mbctool']['type'] = "uploader"
             self.packages['tool-mbctool']['optional'] = False
